@@ -1,0 +1,107 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-color: #da031f;
+}
+@media only screen and (max-width: 240px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 12px; }
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 9px; }
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 36px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:9px; line-height: 14px; text-align: center; border-radius: 7px; width: 14px; height: 14px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:9px; text-align: center; vertical-align: middle; border-radius: 3px; }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 12px; }
+    .round_corner_table{ border-radius: 9px; }
+    .pad_table_rows{ padding-bottom: 3px;}
+}
+@media only screen and (max-width: 320px) and (min-width: 241px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 16px; }
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 12px; }
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 48px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:12px; line-height: 18px; text-align: center; border-radius: 9px; width: 18px; height: 18px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:12px; text-align: center; vertical-align: middle; border-radius: 4px; }
+    .form_text{ font-family:'Arial'; color: #ffffff; font-size: 12px; height: 24px; border-radius: 4px; border-color: #af010b; border-width: 1px; border-style: solid; background-color: #ee3e40; padding-left: 5%;}
+    .round_corner_table{ border-radius: 12px; }
+    .pad_table_rows{ padding-bottom: 4px;}
+}
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 24px; line-height: 48px;}
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 18px; line-height: 36px;}
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 72px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:18px; line-height: 27px; text-align: center; border-radius: 13px; width: 27px; height: 27px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:18px; text-align: center; vertical-align: middle; border-radius: 6px; }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 24px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }
+    .round_corner_table{ border-radius: 18px; }
+    .pad_table_rows{ padding-bottom: 6px;}
+}
+@media only screen and (max-width: 640px) and (min-width: 481px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 32px; line-height: 64px;}
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 24px; line-height: 48px;}
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 96px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:24px; line-height: 36px; text-align: center; border-radius: 18px; width: 36px; height: 36px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:24px; text-align: center; vertical-align: middle; border-radius: 8px;  }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 32px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }
+    .round_corner_table{ border-radius: 24px; }
+    .pad_table_rows{ padding-bottom: 8px;}
+}
+@media only screen and (max-width: 720px) and (min-width: 641px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 36px; line-height: 72px;}
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 27px; line-height: 54px;}
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 108px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:27px; line-height: 40px; text-align: center; border-radius: 20px; width: 40px; height: 40px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:27px; text-align: center; vertical-align: middle; border-radius: 9px;  }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 36px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }
+    .round_corner_table{ border-radius: 27px; }
+    .pad_table_rows{ padding-bottom: 9px;}
+}
+@media only screen and (max-width: 960px) and (min-width: 721px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 48px; line-height: 96px;}
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 36px; line-height: 72px;}
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 144px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:36px; line-height: 54px; text-align: center; border-radius: 27px; width: 54px; height: 54px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:36px; text-align: center; vertical-align: middle; border-radius: 12px;  }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 48px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }
+    .round_corner_table{ border-radius: 36px; }
+    .pad_table_rows{ padding-bottom: 12px;}
+}
+@media only screen and (max-width: 1280px) and (min-width: 961px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 64px; line-height: 128px;}
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 48px; line-height: 96px;}
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 192px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:48px; line-height: 72px; text-align: center; border-radius: 36px; width: 72px; height: 72px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:48px; text-align: center; vertical-align: middle; border-radius: 16px;  }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 64px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }
+    .round_corner_table{ border-radius: 48px; }
+    .pad_table_rows{ padding-bottom: 16px;}
+}
+@media only screen and (min-width: 1281px) {
+    .normal_text{ font-family:'Arial'; color: #ffffff; font-size: 64px; line-height: 128px;}
+    .small_text{ font-family:'Arial'; color: #ffffff; font-size: 48px; line-height: 96px;}
+    .extra_big_text{ font-family:'Arial'; color: #ffffff; font-size: 192px; }
+    .label_dot { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:48px; line-height: 72px; text-align: center; border-radius: 36px; width: 72px; height: 72px;}
+    .emphasize_text { font-family: 'Arial'; background-color: #ffc016; color: #da031f; font-size:48px; text-align: center; vertical-align: middle; border-radius: 16px; }
+    .form_text{ font-family:'Arial'; color: #000000; font-size: 64px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; }
+    .round_corner_table{ border-radius: 48px; }
+    .pad_table_rows{ padding-bottom: 16px;}
+}
+.reg_layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 300%;
+    background-color: rgba(0,0,0,0.82);
+    z-index: 10;
+}
+
+.promote_layer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 300%;
+    background-color: rgba(0,0,0,0.82);
+    z-index: 10;
+}
